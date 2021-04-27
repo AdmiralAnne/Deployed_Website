@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(7, 7, 7);
+}
+
+h1, p, form{
+    color:rgb(53, 219, 53);
+}
+h1{
+    background-color: rgb(54, 13, 13);
+}
