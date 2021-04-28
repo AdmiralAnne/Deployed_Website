@@ -7,7 +7,18 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
 }
+body{
+  border-radius: 15px;
+  background-image: url(https://images.pexels.com/photos/2098428/pexels-photo-2098428.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
 
 a:hover, a:active {
   background-color: red;
+}
+section{
+  border-radius: 20px;
+  margin: auto;
+  background-color: burlywood;
+  width: 800px;
+  height: 1700px;
 }
