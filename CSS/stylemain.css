@@ -1,3 +1,24 @@
 body{
+    text-align: center;
     background-color: burlywood;
 }
+section{
+    border: 7px solid rgb(198, 198, 228);
+    padding: 50px 50px;
+    background-color: cadetblue;
+    border-radius: 20px;
+}
+a:link, a:visited {
+    border-radius: 20px;
+    background-color: #252121;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+a:hover, a:active {
+    background-color: red;
+  }
+
