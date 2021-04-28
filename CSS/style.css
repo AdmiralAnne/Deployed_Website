@@ -1,12 +1,23 @@
 body{
     background-color: rgb(7, 7, 7);
+    background-image: url(https://images.pexels.com/photos/270623/pexels-photo-270623.png?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+a.link1{
+    padding-top: 0.4%;
+    padding-bottom: 0.4%;
+    padding-left: 0.3%;
+    padding-right: 0.3%;
+    color: chartreuse;
+    background-color: rgb(1, 18, 73);
+    border-radius: 15px;
+}
+.marquee{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 hr{
     width: 50%;
 }
-.hr2 {
-    
-}
+
 h1, p, form{
     color:rgb(53, 219, 53);
 }
@@ -20,14 +31,7 @@ h1{
     padding: 2.5%;
     background-color: rgb(92, 4, 4);
 }
-a:link, a:visited {
-    background-color: #355ee4;
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
+
 h3{ 
     border-radius: 15px;
     padding: 1%;
@@ -36,3 +40,13 @@ h3{
     margin-right: 500px;
     background-color: rgb(82, 74, 74);
 }
+a.link3{
+    margin-right: 500px;
+    margin-left: 500px;
+    background-color: blueviolet;
+    background-image: cross-fade();
+}
+a:hover, a:active{
+    padding-right: 0.1%;
+    background-color: rgb(211, 62, 174);
+  }
