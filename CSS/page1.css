@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(153, 184, 167);
+}
+
+ul.ul1 {
+    border: 2px solid rgb(87, 77, 77);
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 13%;
+    height: 30%;
+    position: fixed;
+    background-color: #f1f1f1;
+}
+
+li.li1 a {
+    border: 0.4px solid rgb(255, 255, 255);
+    display: block;
+    color: #000;
+    padding: 8px 8px;
+    text-decoration: none;
+}
+
+div.con {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Change the link color on hover */
+
+li.li1 a:hover {
+    background-color: #555;
+    color: rgb(255, 255, 255);
+}
+
+div {
+    margin-left: 15%;
+    padding: 1px 16px;
+    height: 500px;
+}

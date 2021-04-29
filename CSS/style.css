@@ -1,9 +1,13 @@
-body{
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     background-color: rgb(7, 7, 7);
     background-image: url(https://images.pexels.com/photos/270623/pexels-photo-270623.png?auto=compress&cs=tinysrgb&dpr=1&w=500);
 }
 
-p.p1{
+p.p1 {
     text-align: center;
 }
 
@@ -17,7 +21,8 @@ a.link1 {
     border-radius: 15px;
     text-align: center;
 }
-a.link2{
+
+a.link2 {
     padding-top: 0.5%;
     padding-bottom: 0.7%;
     padding-left: 1%;
@@ -27,10 +32,14 @@ a.link2{
     border-radius: 15px;
     text-align: center;
 }
-h1, p, form{
-    color:rgb(53, 219, 53);
+
+h1,
+p,
+form {
+    color: rgb(53, 219, 53);
 }
-h1{
+
+h1 {
     border: 10px;
     border-style: solid;
     border-color: indigo;
@@ -40,7 +49,7 @@ h1{
     background-color: rgb(19, 20, 19);
 }
 
-h3{ 
+h3 {
     border-radius: 15px;
     padding: 1%;
     color: rgb(17, 184, 31);
@@ -48,14 +57,15 @@ h3{
     margin-right: 500px;
     background-color: rgb(82, 74, 74);
 }
-a.link3{
+
+a.link3 {
     color: rgb(37, 199, 37);
     padding: 1%;
     border-radius: 15px;
     background-color: rgb(14, 3, 20);
-    
 }
-a.link4{
+
+a.link4 {
     padding-top: 0.5%;
     padding-bottom: 0.7%;
     padding-left: 1%;
@@ -65,18 +75,24 @@ a.link4{
     border-radius: 15px;
     text-align: center;
 }
-a.link1:hover , a.link1:active{ 
-   color: rgb(247, 113, 4); 
+
+a.link1:hover,
+a.link1:active {
+    color: rgb(247, 113, 4);
 }
-a:hover{
+
+a:hover {
     color: rgb(218, 97, 17);
 }
-a.link2:hover{
+
+a.link2:hover {
     color: rgb(218, 97, 17);
 }
-a.link3:hover{
+
+a.link3:hover {
     color: rgb(218, 97, 17);
 }
-a.link4:hover{
+
+a.link4:hover {
     color: rgb(218, 97, 17);
 }

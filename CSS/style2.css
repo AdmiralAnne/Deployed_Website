@@ -1,24 +1,32 @@
-
-a:link, a:visited {
-  background-color: #f44336;
-  color: white;
-  padding: 15px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-body{
-  border-radius: 15px;
-  background-image: url(https://images.pexels.com/photos/2098428/pexels-photo-2098428.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+html {
+    scroll-behavior: smooth;
 }
 
-a:hover, a:active {
-  background-color: red;
+a:link,
+a:visited {
+    border-radius: 15px;
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
-section{
-  border-radius: 20px;
-  margin: auto;
-  background-color: burlywood;
-  width: 800px;
-  height: 1700px;
+
+body {
+    border-radius: 15px;
+    background-image: url(https://images.pexels.com/photos/2098428/pexels-photo-2098428.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+a:hover,
+a:active {
+    background-color: red;
+}
+
+section {
+    border-radius: 20px;
+    margin: auto;
+    background-color: burlywood;
+    width: 800px;
+    height: 1700px;
 }
