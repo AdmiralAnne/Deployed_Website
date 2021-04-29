@@ -66,10 +66,22 @@
     }
     
     section {
-        border: 7px solid rgb(198, 198, 228);
+        border: 7px solid rgb(201, 188, 188);
         padding: 50px 50px;
         background-color: cadetblue;
-        border-radius: 20px;
+        border-radius: 5px;
+    }
+    
+    .dark {
+        background-color: rgb(255, 255, 255);
+        padding: 25px;
+        transition: ease-out 0.4s;
+    }
+    
+    .dark:hover {
+        color: whitesmoke;
+        transition: ease-in 0.2s;
+        background-color: rgb(43, 43, 43);
     }
     
     a:link,

@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
 html {
     scroll-behavior: smooth;
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     background-color: rgb(7, 7, 7);
     background-image: url(https://images.pexels.com/photos/270623/pexels-photo-270623.png?auto=compress&cs=tinysrgb&dpr=1&w=500);
 }
