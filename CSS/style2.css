@@ -20,7 +20,10 @@ body {
 
 a:hover,
 a:active {
-    background-color: red;
+    background-color: rgb(252, 252, 252);
+    color: black;
+    transition: ease-in .2s;
+    box-shadow: 5px 5px 5px grey;
 }
 
 section {

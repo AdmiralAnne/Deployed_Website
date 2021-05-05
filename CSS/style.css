@@ -35,10 +35,20 @@ a.link2 {
     text-align: center;
 }
 
+.formarea{
+    margin-left: 300px;
+    margin-right: 300px;
+    justify-content: center;
+    background-color: rgb(199, 199, 199);
+    padding: 50px;
+    
+}
+
+
 h1,
 p,
 form {
-    color: rgb(53, 219, 53);
+    color: rgb(31, 165, 31);
 }
 
 h1 {
