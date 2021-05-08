@@ -25,11 +25,11 @@
         font-size: 2rem;
         outline: none;
     }
-    
     .btn-1:hover {
         box-shadow: inset 300px 0 0 0 yellow;
         color: black;
         cursor: progress;
+        
     }
     
     .btn-2 {
