@@ -3,4 +3,4 @@ function myFunction() {
     element.classList.toggle("dark-mode");
 }
 
-alert("This is an incomplete website okkkk!");
+// alert("This is an incomplete website okkkk!");
