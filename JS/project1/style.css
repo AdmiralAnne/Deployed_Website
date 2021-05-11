@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     box-sizing: border-box;
     margin: 0;
@@ -69,3 +70,76 @@ body{
     display: block;
 }
 
+=======
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.para{
+    display: flex;
+    float: left;
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    background-color: black;
+    justify-content: center;
+}
+
+.alink{
+    color: white;
+    border: 2px solid rgb(43, 97, 168);
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+    font-family:sans-serif;
+    border-radius: 10px;
+}
+
+.alink:visited{
+    color: rgb(159, 204, 255);
+}
+
+.alink:hover{
+    border-color: chartreuse;
+    color: white;
+    scale: 1.1;
+}
+
+.space{
+    height: 200px;
+}
+
+.image{
+    height: 200px;
+}
+
+.emoji{
+    font-size: 10rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.closed{
+    display: none;
+}
+
+.open{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+>>>>>>> 0bde94d6b236f9f14c44869b77e6572b14161ea1

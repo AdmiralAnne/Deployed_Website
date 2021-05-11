@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
     * { 
         scroll-behavior: smooth;
@@ -99,4 +100,107 @@
 
     .loginlink2{
         color: rgb(76, 26, 141);
+=======
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+    * { 
+        scroll-behavior: smooth;
+        margin: 0%;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 4px;
+    }
+    
+    .container {
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    
+    
+    body {
+        background-color: rgb(180, 0, 180);
+        text-align: center;
+    }
+    
+    .dark-mode {
+        background-color: black;
+        color: white;
+    }
+    
+    section {
+        padding: 50px 50px;
+        background-color: rgb(204, 54, 218);
+        border-radius: 0;
+    }
+    
+    .dark {
+        font-size: 1.7rem;
+        background-color: rgb(255, 255, 255);
+        padding: 25px;
+        transition: ease-out 0.4s;
+        box-shadow: 5px 5px 7px 0 black;
+    }
+    
+    .dark:hover {
+        color: whitesmoke;
+        background-color: rgb(17, 17, 17);
+        background-image: none;
+    }
+    
+    a.click:link {
+        transition: ease-out 0.2s;
+        border-radius: 20px;
+        background-color: #252121;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    a.click:visited {
+        border-radius: 20px;
+        background-color: #161616;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    a.click:hover,
+    a.click:active {
+        transition: ease-in 0.3s;
+        color: black;
+        background-color: rgb(206, 206, 206);
+    }
+    
+    .newlink {
+        word-spacing: 250px;
+    }
+    
+    .area{
+        width: 100%;
+        height: 600px;
+    }
+
+    .loginlink:link{
+        text-decoration: none;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 20px 30px;
+    }
+
+    .loginlink2:active,
+    .loginlink2:link,
+    .loginlink2:visited{
+        text-decoration: none;
+        border: 2px solid rgb(76, 26, 141);
+        padding: 20px 30px;
+    }
+
+    .loginlink2{
+        color: rgb(76, 26, 141);
+>>>>>>> 0bde94d6b236f9f14c44869b77e6572b14161ea1
     }
