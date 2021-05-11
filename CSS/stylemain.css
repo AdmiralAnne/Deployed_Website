@@ -1,5 +1,6 @@
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
-    * {
+    * { 
+        scroll-behavior: smooth;
         margin: 0%;
         font-family: 'Open Sans', sans-serif;
         letter-spacing: 4px;
@@ -13,50 +14,10 @@
         display: flex;
     }
     
-    .btn-1 {
-        height: 100px;
-        width: 300px;
-        border: none;
-        color: white;
-        background-color: rgb(255, 0, 68);
-        border-radius: 4px;
-        box-shadow: inset 0 0 0 0 #fffb12;
-        transition: ease-out 0.3s;
-        font-size: 2rem;
-        outline: none;
-    }
-    .btn-1:hover {
-        box-shadow: inset 300px 0 0 0 yellow;
-        color: black;
-        cursor: progress;
-        
-    }
     
-    .btn-2 {
-        height: 100px;
-        width: 300px;
-        border: none;
-        color: white;
-        background-color: black;
-        border: 4px solid cyan;
-        border-radius: 4px;
-        box-shadow: inset 0 0 0 0 rgb(30, 250, 30);
-        transition: ease-out 0.4s;
-        font-size: 2rem;
-        outline: none;
-        position: relative;
-        z-index: 1;
-    }
-    
-    .btn-2:hover {
-        transition: ease-in 0.4s;
-        box-shadow: inset 0 300px 0 0 rgb(30, 250, 30);
-        color: rgb(0, 0, 0);
-        cursor: pointer;
-        border-color: rgb(6, 114, 20);
-    }
     
     body {
+        background-color: rgb(180, 0, 180);
         text-align: center;
     }
     
@@ -67,7 +28,7 @@
     
     section {
         padding: 50px 50px;
-        background-color: rgb(160, 39, 39);
+        background-color: rgb(204, 54, 218);
         border-radius: 0;
     }
     
@@ -109,36 +70,33 @@
     a.click:hover,
     a.click:active {
         transition: ease-in 0.3s;
-        background-color: red;
+        color: black;
+        background-color: rgb(206, 206, 206);
     }
     
     .newlink {
         word-spacing: 250px;
     }
     
-    .btn3,
-    .btn4 {
-        font-size: 1.2rem;
-        padding: 30px 30px;
-        background-color: cyan;
-        box-shadow: inset 0 0 0 0 magenta;
-        transition: ease-out 0.3s;
+    .area{
+        width: 100%;
+        height: 600px;
     }
-    
-    .btn3:hover {
-        color: rgb(255, 255, 255);
-        transition: ease-in 0.5s;
-        padding: 22px 22px;
-        box-shadow: inset 0 200px 0 0 magenta;
-        border: 4px lightblue solid;
-        border-radius: 50px;
+
+    .loginlink:link{
+        text-decoration: none;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 20px 30px;
     }
-    
-    .btn4:hover {
-        color: white;
-        transition: ease-in 0.3s;
-        box-shadow: inset 300px 0 0 0 crimson;
-        padding: 35px 35px;
-        border: darkblue 10px solid;
-        border-radius: 10px;
+
+    .loginlink2:active,
+    .loginlink2:link,
+    .loginlink2:visited{
+        text-decoration: none;
+        border: 2px solid rgb(76, 26, 141);
+        padding: 20px 30px;
+    }
+
+    .loginlink2{
+        color: rgb(76, 26, 141);
     }
