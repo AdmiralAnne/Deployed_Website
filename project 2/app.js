@@ -9,19 +9,19 @@ let data = [ {
 },
 {
     name:"Maong",
-    age: "19"
+    age: "20"
 },
 {
     name:"Denis",
-    age: "22"
+    age: "20"
 },
 {
     name:"Eying",
-    age: "21"
+    age: "20"
 },
 {
     name:"Marji",
-    age: "19"
+    age: "20"
 }
 ];
 
