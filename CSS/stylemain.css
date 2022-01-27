@@ -41,6 +41,7 @@
     }
     
     .dark:hover {
+        transition: ease-in 0.2s;
         color: whitesmoke;
         background-color: rgb(17, 17, 17);
         background-image: none;
@@ -69,7 +70,7 @@
     
     a.click:hover,
     a.click:active {
-        transition: ease-in 0.3s;
+        transition: ease-in 0.2s;
         color: black;
         background-color: rgb(206, 206, 206);
     }
